@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+header{
+	width: 200vh;
+	height: 25vh;
+}
+
+.logo{
+	text-decoration: none;
+	color: black;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	font-size: 2.1875em;
+	font-weight: 1000;
+	margin-left: 3.9em;
+	margin-top: 0.4em;
+	display: inline-flex;
+}
+
+.university{
+	font-size:0.25em;
+	display: block; 	
+}
+
+ .title{
+ 	margin-left: 2.6em;
+ 	padding-top: 2.5em;
+ 	font-size: 3.2em;
+}
+.para{
+	margin-left: 7em;
+	font-size: 1.2em;
+}
+
+.email{
+	font-size: 1em;
+	margin-left: 15em;
+	display: inline-block;
+	margin-top:0.5em;
+
+}
+
+.id{ 
+	margin-left: 1.6em;
+	font-size: 1em;
+	display: block;
+
+}
+
+.call{
+	font-size: 16px;
+	margin-left: 3.5em;
+	margin-top: 1.8em;
+	display: inline-block;
+}
+
+.number{
+	margin-left: 1.7em;
+	font-size: 15px;
+	display: block;
+}
+
+.fa-paper-plane{
+	color: #f4511e;
+}
+
+.fa-phone{
+	color: #f4511e;
+}
+
+.apply-button{
+  display: inline-block;
+  margin-left: 10em;
+  display: inline-flex;
+
+}
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px ;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+ 
+}
+
+.button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.nav{
+	margin-top: 23px;
+	height: 4em;
+	width: 164.5vh;
+	justify-content: space-around;
+	background-color: #121931;
+	padding: 20px;
+	word-spacing: 30px;
+	margin-left: 8.5em;
+	display: inline-block;
+
+}
+nav a .actve{
+	color: #f4511e;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ebf0f5;
+	font-size: 16px;
+} 	
+
+nav a:hover {
+	  padding-right: 16px;
+	  padding-left: 16px;
+  	  color: #f4511e;
+  	  font-size: 19px;	 
+}
+
+.search-container {
+	margin-left: 47.4em;
+	display: inline-block;
+	
+
+}
+input {
+    width: 265px;
+    border-radius: 30px;
+    border:1px solid;
+    border-color: #4f4746;	
+    position: relative;
+    top: -30px;
+    outline: none;
+    }
+
+input,
+input::-webkit-input-placeholder {
+
+	background-color: #121931;
+	color: #b4becf;
+    font-size: 16px;
+    padding: 15px;	
+    position: relative;
+    right: 15px;
+}
+.search-logo .slogo{
+	color: #b4becf;
+	background-color: #121931;
+	cursor: pointer;
+	position: relative;
+	top: -30px;
+	right: 40px;
+
+}
+
+#main{
+	margin-top: 0em;
+	background-color:#27120666;
+ 	width: 100%;
+ 	color:#fff;
+ 	border:1px;
+ 	position: relative;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-blend-mode: overlay;
+ 	animation: slide 15s infinite;
+
+}
+
+@keyframes slide {
+	0%{
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/html-css-265c2.appspot.com/o/Image1.jpg?alt=media&token=7f67e4b7-3d8f-44a6-8c20-c2fbc40f00ef");
+	}
+	50%{
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/html-css-265c2.appspot.com/o/Image2.webp?alt=media&token=3617d5e7-d1f8-42cf-9983-239e1935d70c");
+	}
+	100%{
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/html-css-265c2.appspot.com/o/Image1.jpg?alt=media&token=7f67e4b7-3d8f-44a6-8c20-c2fbc40f00ef");
+	}
+}
+
+ .contact{
+ 	border: 1px solid #f95500;
+ 	text-decoration: none;
+ 	color: #fff;
+ 	border-radius: 30px;
+ 	font-size: 20px;
+ 	background-color: #f95500;
+ 	padding: 18px;
+ 	margin-left: 10%;
+ 	margin-top: 4%;
+ 	margin-bottom: 7%;
+ 	cursor: pointer;
+ }
+ .contact:hover {
+  	background:none;
+  	color: #f95500;
+  	font-size: 21px;
+  	transition: .3s;
+}
+
+#footer{
+	display: inline-flex;
+	height: 350px;
+	text-align: center;
+ 	color: #fff;
+
+}
+
+ .one{
+ 	float: left;
+ 	width: 25%;
+  	background-color: #f95500;
+  	padding: 50px;
+ }
+
+ .two{
+ 	width: 25%;
+ 	background-color: #121931;
+ 	padding: 50px;
+ }
+
+ .three{
+ 	width: 25%;
+ 	background-color: #f95500;
+ 	padding: 50px;
+ }
+ .four{
+ 	float: right;
+ 	width: 25%;
+  	background-color: #121931;
+  	padding: 50px;
+ }
